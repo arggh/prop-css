@@ -1,0 +1,31 @@
+html {
+  --media-xs: ;
+  --media-sm: initial;
+  --media-md: initial;
+  --media-lg: initial;
+  --media-xl: initial;
+}
+
+@media (min-width: 37.5em) {
+  html {
+    --media-sm: ;
+  }
+}
+
+@media (min-width: 56.25em) {
+  html {
+    --media-md: ;
+  }
+}
+
+@media (min-width: 75em) {
+  html {
+    --media-lg: ;
+  }
+}
+
+@media (min-width: 112.5em) {
+  html {
+    --media-xl: ;
+  }
+}
